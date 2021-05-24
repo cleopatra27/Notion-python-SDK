@@ -1,9 +1,19 @@
 # Notion-python-SDK
 Unofficial notion python SDK
 
-#Usage
+    
+## Actions
+```
+page-create
+page-retrieve
+page-update
+token
+```
+
+## Usage
 
 ```python
 def oauth():
     x = connect(NOTION_CLIENT_ID, REDIRECT_URL,STATE)
     print(x)
+```
